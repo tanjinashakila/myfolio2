@@ -1,0 +1,293 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+width: 1170px;
+margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    background-color: #cfc91d;
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+display: inline-block;
+    padding: 19px 52px;
+    text-transform: uppercase;
+}
+
+.heading h2{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+    text-align: center;
+     display: block;
+}
+.heading p{
+    font-size:16px;
+    font-weight:400;
+    text-align: center;
+    color: #a6a9ac;
+}
+.image_cnt {
+   
+
+  
+    font-size:16px;
+    font-weight:400;
+    text-align: center;
+    color: #a6a9ac;
+    line-height: 30px;
+
+}
+
+
+
+/* nav satrt */
+nav{
+    background-color: #02918c;
+}
+nav .row{
+    align-items: center;
+
+}
+nav .logo{
+    
+    width: 50%;
+}
+nav .menu{
+    width: 50%;
+}
+.menu a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+}
+.menu li{
+    display: inline-block;
+    padding: 19px 26px;
+    text-align: right;
+}
+/* nav ends */
+
+/* banner starts */
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+}
+#banner .row{
+    align-items: center;
+    height: 728px;
+    justify-content: center;
+    text-align: center;
+}
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+
+}
+#banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+letter-spacing: 20px;
+color: white;
+
+}
+#banner p{
+    color: white;
+    font-size: 18px;
+}
+#banner img{
+    margin: 50px 0;
+}
+
+/* banner ends */
+
+
+ /* About starts  */
+
+#about .heading{
+    margin-top: 50px;
+}
+#about span{
+    font-size: 23px;
+    font-weight: 800;
+}
+.card{
+    width: 25%;
+    color: #93969a;
+    text-align: center;
+    font-size: 11px;
+    padding: 55px;
+    border-right: 1px solid #93969a78 ;
+    margin: 80px 0;
+    }
+    .card:last-child{
+        border: none;
+    }
+    .card span{
+        font-size: 30px;
+        color: #02918c;
+    }
+    .card p{
+    font-weight: 400;
+    }
+    .card h4{
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+     /* About ends */
+
+     /* service starts */
+
+     #service{
+        background-image: url(../images/service.png);
+        background-size: cover;
+        background-position: center;
+    margin: 50px 0;
+     }
+     #service .container{
+        width: 50%;
+        margin-left: 80px;
+     }
+     #service_cnt{
+        padding: 56px 0;
+
+     }
+     #service_cnt .heading h2{
+        text-align: left;
+     }
+
+     #service_cnt  p{
+        font-size: 11px;
+        color: #93969a;
+        text-align: left;
+        line-height: 30px;
+
+            }
+     .service_card{
+                width: 50%;
+                color: #93969a;
+                text-align: left;
+                font-size: 11px;
+                line-height: 20px;
+                margin-bottom: 56px;
+            }
+     .service_card span{
+                    font-size: 30px;
+                    color: #02918c;
+                }
+      .service_card h4{
+                    font-size: 16px;
+                    font-weight: 800;
+                    margin-top: 15px;
+
+                }
+    
+     /* service ends */
+
+/* my work starts */
+#work .image_cnt{
+    padding: 39px 0;
+}
+.pic{
+    position: relative;
+    width: 25%;
+}
+.pic img{
+    width: 100%;
+    display: block;
+}
+.overlay{
+    opacity: 0;
+    visibility: hidden;
+    inset: 22px 28px;
+    position: absolute;
+    background-color: #02918c78;
+    text-align: center;
+    padding: 40px 30px;
+    font-size: 13px;
+    color: white;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+.overlay h4{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.pic:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+}
+
+
+
+
+/* my work ends */
+
+/* contact starts */
+#contact .row{
+    
+    background-color: #0b0b0b;
+    justify-content: center;
+
+}
+
+.menu2 ul li{
+    width: 100%;
+
+border-bottom: 1px solid white;
+background-color: #0b0b0b;
+text-align: center;
+padding: 30px;
+display: inline-block;
+
+}
+
+.menu2 li a{
+    color: #7e8287;
+}
+.menu2 .button{
+text-align: center;
+justify-content: center;
+margin: 70px 530px;
+
+}
+
+/* contact ends */
+#end{
+   background-color:#000000; 
+   
+}
+#end p{
+color:#7e8287;
+font-size: 12px;
+
+text-align: center;
+padding: 27px 0;
+}
